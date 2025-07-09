@@ -2,7 +2,7 @@ function loadingAnimation() {
 
     var tl = gsap.timeline();
     tl.from(".line h1", {
-        y: -150,
+        y: 150,
         stagger: 0.25,
         duration: 0.6,
         delay: 0.5,
@@ -41,6 +41,16 @@ function loadingAnimation() {
     tl.to("#loader", {
         display: "none",
     })
+    tl.from("#nav", {
+        opacity : 0,
+    })
+
+    tl.from("#hero1 h1 , #hero2 h1, #hero3 h2, #hero4 h1", {
+        y: 150,
+        stagger: 0.25,
+        duration: 0.4,
+        // delay: 0.5,
+});
 }
 
 loadingAnimation();
@@ -56,3 +66,7 @@ function cursorAnimation(){
 Shery.makeMagnet("#nav-part2 h4" );
 }
 cursorAnimation();
+
+
+
+//! Time 1 hr 16 min 02 sec
