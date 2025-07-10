@@ -10,6 +10,9 @@ html, body{
     height: 100%;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 #crsr{
     height: 2.3vw;
     width: 2.3vw;
@@ -215,17 +218,83 @@ html, body{
 }
 
 #video-cursor i{
-    font-size: 2vh;
+    font-size: 2vw;
 }
 
 #page3{
     min-height: 100vh;
     width: 100%;
     background-color: black;
+    position: relative;
 }
 
 #page4{
+    padding: 7vh 0;
     min-height: 100vh;
     width: 100%;
+    position: relative;
     background-color: #151515;
+}
+#page4-content{
+    width: 72vw;
+    position: relative;
+    margin-left: 28%;
+}
+#page4-content h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+#page4-content .underline{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 5vw 0;
+}
+#page4-content>p{
+    font-size: 2.05vw;
+    width: 50%;
+    margin-bottom:  3vw;
+}
+#page4-flex{
+    display: flex;
+    
+}
+
+#page4-flex img{
+    width: 48%;
+
+}
+#page4-flex p{
+    font-size: 0.9vw;
+    width: 19%;
+    margin-left: 1vw ;
+}
+#page4-blue-div{
+    background-color: #3F7DF4;
+    width: 33vw;
+    padding: 4vw 2vw;
+    position: relative;
+    margin-top: -35vh;
+    margin-left: 25vw;
+}
+.blue-div-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.7vw 0;
+    border-bottom: 1px solid #ffffff9f;
+}
+.blue-div-elem h4{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.blue-div-elem p{
+    width: 40%;
+    font-size: 0.7vw;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    /* padding: 5vw 0;  */
 }
