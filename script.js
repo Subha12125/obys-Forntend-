@@ -69,4 +69,3 @@ cursorAnimation();
 
 
 
-//! Time 1 hr 16 min 02 sec
